@@ -84,12 +84,20 @@ section{ scroll-margin-top:88px; }
   letter-spacing:-.02em; text-decoration:none;
 }
 .brand em{ color:var(--accent); font-style:normal; }
+.nav-right{ display:flex; align-items:center; gap:28px; }
 .nav-links{ display:flex; gap:28px; list-style:none; }
 .nav-links a{
   text-decoration:none; color:var(--muted); font-weight:500; font-size:.95rem;
   transition:color .25s var(--ease-out);
 }
 .nav-links a:hover, .nav-links a:focus-visible{ color:var(--text); }
+.lang-toggle{
+  font-family:var(--font-mono); font-size:.78rem; font-weight:700;
+  color:var(--text); background:transparent; cursor:pointer;
+  border:1px solid var(--line); border-radius:999px; padding:7px 15px;
+  transition:border-color .25s var(--ease-out), color .25s var(--ease-out);
+}
+.lang-toggle:hover, .lang-toggle:focus-visible{ border-color:var(--accent); color:var(--accent); }
 
 /* ---------- Hero ---------- */
 .hero{

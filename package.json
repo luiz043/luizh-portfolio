@@ -13,6 +13,6 @@
     "gsap": "^3.12.5"
   },
   "devDependencies": {
-    "vite": "^5.4.10"
+    "vite": "^8.1.3"
   }
 }
